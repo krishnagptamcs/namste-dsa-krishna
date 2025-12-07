@@ -23,7 +23,8 @@ function findMaxConsecutive (arr){
 
     }
 
-    //In last return the maxCount, make sure the loop can be end with currentCount , 
+    //In last return the maxCount, make sure the loop can be end with currentCount  coz last elem might not be zero,
+    //and out else condition run when it is zero  
     //So in returning we need to return the max one
     return Math.max(maxCount,currentCount);
 
