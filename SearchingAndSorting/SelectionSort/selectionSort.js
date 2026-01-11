@@ -5,6 +5,7 @@ function selectionSort(arr) {
   let n = arr.length;
   //iteration
   //In each iteration it find the min element and put in the starting index
+  //here we are asssuming , the 0th position is the min value
   for (let i = 0; i < n - 1; i++) {
     //second iteration finding the minimum value and replacing with 0th position
     //this loop is only for finding the min element/value
